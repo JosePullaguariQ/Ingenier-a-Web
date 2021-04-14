@@ -1,0 +1,175 @@
+
+body{
+    background: #CCD3CA;
+    color: black;
+    /*font-size: 2em;*/
+
+}
+aside,header,nav,section#contenedor, section#contenido, footer{
+    border-radius: .5em;
+    background-color: #CAC853;
+    
+    margin: .3em auto;
+    /*separacion*/
+    padding: .3em;
+    text-align: center;
+    width:95%;
+    color: black;
+}
+.texto{
+    text-align: justify;
+    font-family: "Poppins", sans-serif;
+
+}
+
+#cs3{
+    align-content: center;
+    font-family: "Poppins", sans-serif;
+
+}
+
+section#contenido{
+    display: inline-block;
+    background-color:#E4E3DD;
+    min-height: 200px;
+    vertical-align: top;
+    width: 95%;
+}
+
+
+footer{
+    font-size: .9em;
+    font-weight: bold;
+    font-style: italic;
+}
+
+header{
+    font-size: 2em;
+}
+
+
+/*Carrosel*/
+
+.slider {
+    
+    width: 35%;
+    margin: auto;
+    overflow: hidden;
+}
+.slider ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: cambio 20s infinite alternate linear;
+}
+.slider li {
+    width: 100%;
+    list-style: none;
+}
+.slider img {
+    border-radius: 18px;
+    width: 100%;
+}
+@keyframes cambio {
+    0% {
+        margin-left: 0;
+    }
+    20% {
+        margin-left: 0;
+    }
+    25% {
+        margin-left: -100%;
+    }
+    45% {
+        margin-left: -100%;
+    }
+    50% {
+        margin-left: -200%;
+    }
+    70% {
+        margin-left: -200%;
+    }
+    75% {
+        margin-left: -300%;
+    }
+    100% {
+        margin-left: -300%;
+    }
+}
+
+/*Menú*/
+#menu {	
+	font-size: 18px;
+	text-align: right;
+}
+#menu a{
+	color:#61481d;
+	font-family: forte;
+}
+#menu ul {
+	list-style: none;
+	font-size: 30px;
+	margin: 0;
+}
+#menu ul li{	
+	display:inline-block;
+}
+
+
+#izquierda {
+    padding: .8em;
+	margin-left: 10%;
+	text-align: left;
+	width: 30%;
+	float: left;
+}
+
+.concepto{
+    font-family: Sans-serif ;
+    font-size: 1.3em;
+    text-align: justify;
+    font-style: italic;
+}
+
+
+
+
+
+#formulario h1,h3{
+    text-align: center;
+}
+#formulario h1,h3, label,p{
+    
+    font-family: "Poppins", sans-serif;
+}
+#formulario legend{
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+}
+
+/*Tablas*/
+#tabla{
+    text-align: center;
+}
+.table {
+    background: #EEE667;    
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 8px 8px 8px 4px rgba(173, 39, 39, 0.2);
+
+    
+}
+th{
+    font-size:13px;
+    font-family: "Arial black";
+}
+ td {
+    border: solid 0px;
+    padding: 0px 3px;
+    color: black;
+    height: 30px;
+    font-size: 14px;
+    font-family: Lucida Bright;
+}
+tr:nth-child(even) {
+    background: #ddd;
+}
